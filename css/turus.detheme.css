@@ -132,6 +132,9 @@ HEADING
   justify-content: center;
 
 }
+.color1{
+  color: #d62e2f
+}
 
 .wrapper.margin-bottom-large {
   margin-bottom: 80px;
@@ -491,11 +494,11 @@ BUTTON
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: space-around;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: inherit;
   text-align: left;
 }
 
@@ -860,9 +863,9 @@ BUTTON
 }
 
 .circle.gradient {
-  background-color: hsla(2.325581395348829, 100.00%, 74.71%, 1.00);
+  background-color: #f16522;
   color: #fff;
-}
+ }
 
 .how-it-works-step {
   display: -webkit-box;
@@ -899,13 +902,94 @@ BUTTON
 .how-it-works-line {
   position: absolute;
   top: 23px;
-  width: 100vw;
-  height: 1px;
+  width: 74vw;
+  height: 2px;
   margin-bottom: 0px;
-  background-color: #ffb380;
+  background-color: #f16522;
+}
+i {
+  border: solid #f16522;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 9px;
 }
 
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  top: -13px;
+  left: 76px;
+  z-index: 1;
+}
 
+.right1 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  top: -13px;
+  left: 276px;
+  z-index: 1;
+}
+.right2 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  top: -10px;
+  left: 500px;
+}
+
+.right3 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  top: -10px;
+  left: 700px;
+}
+
+.right4 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  top: -10px;
+  left: 900px;
+}
+
+.right5 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  top: -10px;
+  left: 1089px;
+}
+.how-it-works-line1 {
+  position: absolute;
+  transform: rotate(90deg);
+  left: 9px;
+  width: 3vw;
+  height: 2px;
+  margin-bottom: 0px;
+  background-color: #f16522;
+}
+
+.how-it-works-line2 {
+  position: absolute;
+  transform: rotate(90deg);
+  left: 1144px;
+  width: 3vw;
+  height: 2px;
+  margin-bottom: 0px;
+  background-color: #f16522;
+}
+
+.how-it-works-line3 {
+  position: absolute;
+  top: -23px;
+  width: 74vw;
+  height: 2px;
+  margin-bottom: 0px;
+  background-color: #f16522;
+}
 #triangle-right {
   width: 0;
   height: 0;
@@ -915,24 +999,26 @@ BUTTON
 }
 .hexagon {
   position: absolute;
-  left: -20%;
+  left: 49%;
   top: auto;
   right: auto;
-  bottom: -25%;
+  bottom: -17%;
 }
 
 .hexagon2 {
   position: absolute;
   left: auto;
-  top: 1%;
-  right: -25%;
+  top: 13%;
+  right: -29%;
   bottom: auto;
 }
+
+
 
 .hexagon3 {
   position: absolute;
   left: 0%;
-  top: -31%;
+  top: -20%;
   right: auto;
   bottom: auto;
 }
@@ -1274,10 +1360,10 @@ BUTTON
 
 .hexagon4 {
   position: absolute;
-  left: -22%;
+  left: -23%;
   top: auto;
   right: auto;
-  bottom: -58%;
+  bottom: 27%;
 }
 
 .form-field-3 {
