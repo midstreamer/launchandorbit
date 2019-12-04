@@ -1,0 +1,394 @@
+input[type="text"], input[type="email"], input[type="url"], input[type="tel"], input[type="search"], input[type="password"], input[type="subject"], textarea {
+    background: #343436;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+}
+
+.btn-one:hover{
+    background: #f9f9f9 ;
+    border: 2px solid #f9f9f9 ;
+    color: #f98a61;
+}
+
+.section-title h3, .section-title-left h3 {
+    color: #f9f9f9;
+}
+.section-title-left h2::before {
+    background: #414142;
+}
+.section-title-left .line {
+    background: #999;
+}
+.section-title-left .line span {
+    color: #999;
+}
+/*------------- Navbar -----------*/
+.nav-fixed {
+    background: #343436;
+    border-bottom: 1px solid #29292d;
+}
+.nav-fixed .navbar-nav .nav-item .nav-link {
+    color: #f9f9f9;
+}
+.nav-fixed .social-media-nav li {
+    color: #f9f9f9;
+}
+.nav-fixed .navbar-nav .active>.nav-link,
+.nav-fixed .navbar-nav .nav-link.active,
+.nav-fixed .navbar-nav .nav-link.show,
+.nav-fixed .navbar-nav .show>.nav-link {
+    color: #f98a61 !important;
+    background-color: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+.nav-fixed .side-menu-btn span {
+    border: 2px solid #f9f9f9;
+}
+.side-menu {
+    background: #343436;
+    box-shadow: -3px 0 3px rgba(0,0,0,.01);
+}
+.about-side h2,
+.contact-side h6,
+.follow-us h6 {
+    color: #FFF;
+}
+.social-media li a:hover {
+    color: #f98a61;
+    background: #eee;
+}
+
+.grid-line {
+    background: #2c2c2f;
+}
+/*------------- About Me -----------*/
+.about  {
+    background: #343436;
+}
+.info-about h4 {
+    color: #FFF;
+}
+.about-img::before {
+    z-index: 0;
+}
+.about-img img {
+    z-index: 3;
+    position: relative;
+}
+.box-img::before,
+.box-img::after {
+    z-index: 1;
+    opacity: .05;
+}
+.profile {
+    background-color: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+.profile p {
+    color: #f9f9f9;
+}
+
+/*------------- statistics -----------*/
+.stat-item .overlay {
+    background: rgba(58, 58, 58, 0.8);
+
+}
+
+
+/*------------- MY Skills -----------*/
+
+.my-skills {
+    background: #2f2f31;
+}
+.skills .skill-box .progress-line {
+    background: #444;
+}
+.skills .skill-title,
+.skills .skill-box .progress-line > span > .percent-tooltip {
+    color: #f9f9f9;
+}
+/*------------- MY resume -----------*/
+.resume {
+    background: #343436;
+}
+.my-resume {
+    border-left: 2px solid #2b2b2d;
+}
+.history-top {
+}
+
+.resume-item {
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;  
+}
+
+.resume-head .content-exper h4 {
+    color: #f9f9f9;
+}
+.resume-head > span {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+
+.icon-exp {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+
+
+/*------------- process -----------*/
+.process {
+    background: #2f2f31;
+}
+.process-box {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+.process-box h4 {
+    color: #FFF;
+}
+.process-box .number-process {
+    opacity: .1;
+}
+
+/*------------- services -----------*/
+
+.services {
+    background: #343436;
+}
+
+.services-item {
+
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+
+}
+
+.services-item h4 {
+    color: #f9f9f9;
+}
+
+.number-bg {
+    opacity: .1;
+}
+
+
+/*------------- portfolio -----------*/
+
+.portfolio {
+    position: relative;
+    background: #2f2f31;
+}
+
+.list-control li {
+    color: #f9f9f9;
+}
+.list-control li.active {
+    color: #f98a61;
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+.my-work {
+    border: 10px solid #343436;
+}
+.footer-work {
+    background: #343436;
+}
+.footer-work h4 {
+    color: #FFF;
+}
+.my-work .overlay {
+    background: linear-gradient(45deg, rgba(249, 138, 97, 0.96) 0%, rgba(252, 168, 138, 0.96) 100%)
+}
+
+
+
+/*------------- testimonials -----------*/
+.testimonials {
+    background: #343436;
+}
+
+.testimonials .testmonail-box {
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+.testimonials .client-img img {
+    background: #414142;
+    border: 1px solid #2b2b2d;
+}
+
+.testimonials .author-details h6 {
+    color: #f9f9f9;
+}
+.testimonials .owl-nav div {
+    background: #343436;
+}
+
+
+
+/*------------- blog -----------*/
+.blog {
+    background-color: #2f2f31;
+}
+
+.blog-info {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+
+.blog-info .title-post a h5,
+.blog-info .link {
+    color: #f9f9f9;
+}
+
+/*------------- clients -----------*/
+.clients {
+    background: #343436;
+}
+
+
+
+.sponsor-item img {
+    opacity: .5;
+}
+
+/*------------- contact -----------*/
+
+.contact {
+    background: #2f2f31;
+}
+.contact-item p {
+    color: #f9f9f9;
+}
+
+
+/*------------- footer -----------*/
+footer {
+    background: #343436;
+    border-top: 1px solid #2b2b2d;
+}
+footer h2 {
+    color: #fff;
+}
+footer .copyright,
+footer .copyright a,
+.social-media li a {
+    color: #f9f9f9;
+    
+}
+.scroll-up:hover,
+.down:hover {
+    background: #FFF;
+}
+/*------------- blog page  -----------*/
+.blog-area {
+    background: #2f2f31;
+}
+.widget-profile {
+    background: #343436;
+}
+.footer-profile {
+    background: #343436;
+    border-top: 1px solid #2f2f31;
+
+}
+.widget-profile h4 {
+    color: #FFF;
+}
+
+.title-widget {
+    background: #353535;
+    border-bottom: 1px solid #2b2b2d;
+}
+.title-widget h4 {
+    color: #FFF;
+}
+
+.widget-search {
+    background: #343436;
+}
+
+.widget-newsletter input[type="email"],
+.widget-search input[type="text"] {
+    background: #2f2f31;
+    border: 1px solid rgb(42, 42, 43);
+    color: #fff;
+}
+
+.categories-list {
+    background: #343436;
+}
+.categories-list li a {
+    border-bottom: 1px solid #2b2b2d;
+}
+
+.tags-list {
+    background: #343436;
+}
+
+.tags-list li a {
+    border: 1px solid rgb(47, 47, 49);
+    background: #414142;
+}
+
+.widget-newsletter {
+    background: #343436;
+}
+
+.blog-pagination .pagination li a.page-link {
+    background-color: #343436;
+    border: 2px solid #2b2b2d;
+}
+
+.pagination li a.page-link.active, .pagination li a.page-link:hover {
+    background: #f98a61;
+    border: 2px solid #343436;
+    color: #FFF;
+}
+
+/*------------- single blog page  -----------*/ 
+.single-blog .blog-info .post-text {
+    border-bottom: 1px solid #2b2b2d;
+}
+.widget-posts {
+    background: #343436;
+}
+
+.widget-posts .inner-text h6 {
+    color: #FFF;
+}
+
+.widget-posts .lastet-posts {
+    border-bottom: 1px solid #2b2b2d;
+}
+
+.comments .title-comments,
+.title-add {
+    background: #353535;
+    border-bottom: 1px solid #2b2b2d;
+}
+
+.comments .title-comments h4,
+.title-add h4 {
+    color: #FFF;
+}
+.inner-comments {
+    background: #343436;
+}
+.person h5 {
+    color: #FFF;
+}
+
+.comment-author {
+    border-bottom: 1px solid #2b2b2d;
+}
+.last-comment {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+.comment-form {
+    background: #343436;
+}
