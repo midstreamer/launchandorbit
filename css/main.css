@@ -2754,10 +2754,10 @@ footer .copyright a {
 }
 .author img {
     float: left;
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 45px;
     margin-right: 15px;
-    border-radius: 50%;
+    border-radius: 0%;
     border: 2px solid #f98a61;
 }
 .author .inner-author {

@@ -151,6 +151,7 @@ sub {
  */
 img {
   border: 0;
+  padding-top: 0px;
 }
 /**
  * Correct overflow not hidden in IE 9/10/11.
